@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    
+    <script>
+        //declaramos las variables que delimiten el tamano del tablero
+        let columna = parseInt(prompt("Introduce la anchura del tablero: "));
+        let fila = parseInt(prompt("Introduce la altura del tablero: "));
+
+        let signo = "";
+
+        for (let i = 0; i < fila; i++) {
+        
+            if (i % 2 == 0) {
+                signo += "X";
+            } else {
+                signo += "O";
+            }
+
+        }
+
+        //console.log(signo);
+
+        for (let i = 0; i < columna; i++) {
+
+            console.log(signo);
+
+        }
+                  
+    </script>
+
+</body>
+</html>
